@@ -1,9 +1,8 @@
-import { StrictMode } from "react";
+import { StrictMode, useEffect, useState } from "react";
 import { createRoot } from "react-dom/client";
+import { RankList } from "@/components/RankList";
 import { LangProvider, useLang } from "@/lib/i18n";
-import { solventLabel, doiHref } from "@/lib/data";
 import { EXAMPLE_SMILES, recommendFromSmiles, type Recommendation } from "@/lib/predict";
-import { useEffect, useState } from "react";
 import "../src/styles.css";
 
 function readSmiles() {
@@ -70,8 +69,6 @@ function Home() {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [lang]);
 
-  const catName = rec ? (lang === "zh" ? rec.primary.name_zh : rec.primary.name) : "";
-
   return (
     <div className="flex min-h-dvh flex-col overflow-y-auto bg-paper text-ink">
       <header className="sticky top-0 z-40 border-b border-line bg-paper">
@@ -127,56 +124,7 @@ function Home() {
           </div>
         </div>
         {hint ? <p className="mt-4 text-sm text-ink">{hint}</p> : null}
-        {rec ? (
-          <section className="mt-4 rounded-xl border border-viridian/30 bg-card px-5 py-4">
-            <p className="text-xs font-medium uppercase tracking-wide text-muted">{t.catalysts}</p>
-            <p className="mt-1 font-display text-2xl font-medium tracking-tight text-viridian">{catName}</p>
-            <dl className="mt-4 grid grid-cols-2 gap-4">
-              <div>
-                <dt className="text-xs text-muted">{t.solvent}</dt>
-                <dd className="mt-1 text-lg font-medium">{solventLabel(rec.primary.solvent, lang)}</dd>
-              </div>
-              <div>
-                <dt className="text-xs text-muted">{t.temperature}</dt>
-                <dd className="mt-1 font-mono text-lg tabular-nums">{rec.primary.temperature_c} °C</dd>
-              </div>
-            </dl>
-            {rec.refs?.length ? (
-              <div className="mt-4 border-t border-line pt-3">
-                <p className="text-xs font-medium uppercase tracking-wide text-muted">{t.literature}</p>
-                <ul className="mt-2 flex flex-col gap-2">
-                  {rec.refs.map((p) => {
-                    const href = doiHref(p.doi);
-                    const lead = p.authors.split(/[,;]/)[0]?.trim() || p.authors;
-                    return (
-                      <li key={p.doi} className="text-sm leading-snug">
-                        <p>
-                          {lead}
-                          {p.authors.includes(",") || p.authors.includes(";") ? " et al." : ""}{" "}
-                          <span className="text-muted">
-                            {p.journal} {p.year}
-                          </span>
-                        </p>
-                        {href ? (
-                          <a
-                            href={href}
-                            target="_blank"
-                            rel="noreferrer"
-                            className="font-mono text-xs text-viridian hover:underline"
-                          >
-                            {p.doi}
-                          </a>
-                        ) : (
-                          <p className="font-mono text-xs text-muted">{p.doi}</p>
-                        )}
-                      </li>
-                    );
-                  })}
-                </ul>
-              </div>
-            ) : null}
-          </section>
-        ) : null}
+        {rec ? <RankList rec={rec} lang={lang} label={t.catalysts} /> : null}
       </main>
     </div>
   );

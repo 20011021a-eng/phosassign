@@ -281,6 +281,7 @@ export type ConditionPick = {
   expectedEe: number;
   maxEe: number;
   score: number;
+  refs: PaperRef[];
 };
 
 export type PaperRef = {
@@ -297,6 +298,7 @@ export type Recommendation = {
   sim: number;
   primary: ConditionPick;
   alts: ConditionPick[];
+  ranked: ConditionPick[];
   refs: PaperRef[];
 };
 
@@ -444,7 +446,7 @@ function rankWithFeatures(feat: number[], type: string): RankedCatalyst[] {
   return scores.map((s, i) => ({ ...s, rank: i + 1 }));
 }
 
-function toPick(row: RankedCatalyst, solvent: string, temp: number): ConditionPick {
+function toPick(row: RankedCatalyst, solvent: string, temp: number, refs: PaperRef[] = []): ConditionPick {
   return {
     catalyst_id: row.id,
     name: row.name,
@@ -454,6 +456,7 @@ function toPick(row: RankedCatalyst, solvent: string, temp: number): ConditionPi
     expectedEe: row.expectedEe,
     maxEe: row.maxEe,
     score: row.score,
+    refs,
   };
 }
 
@@ -497,17 +500,54 @@ function refsFor(
     .map(({ n: _n, typeHit: _t, ...p }) => p);
 }
 
-function fallbackRec(): Recommendation {
-  const type = reactions[0]?.reaction_type ?? "";
-  const ranked = rankFor(type || "transfer hydrogenation (quinoline)", "toluene", 25);
-  const primary = toPick(ranked[0], "toluene", 25);
+function conditionsFor(
+  catalystId: string,
+  type: string,
+  pool: { row: (typeof reactions)[number] }[],
+  fallbackSolvent: string,
+  fallbackTemp: number,
+): { solvent: string; temp: number } {
+  const fromPool = pool.filter((h) => h.row.catalyst_id === catalystId);
+  if (fromPool.length) {
+    const best = fromPool.reduce((a, b) => (b.row.ee > a.row.ee ? b : a));
+    return { solvent: best.row.solvent, temp: best.row.temperature_c };
+  }
+  const typed = reactions.filter((r) => r.catalyst_id === catalystId && r.reaction_type === type);
+  if (typed.length) {
+    const best = typed.reduce((a, b) => (b.ee > a.ee ? b : a));
+    return { solvent: best.solvent, temp: best.temperature_c };
+  }
+  return { solvent: fallbackSolvent, temp: fallbackTemp };
+}
+
+function packPicks(
+  ranked: RankedCatalyst[],
+  type: string,
+  pool: { row: (typeof reactions)[number] }[],
+  fallbackSolvent: string,
+  fallbackTemp: number,
+): Recommendation {
+  const picks = ranked.slice(0, 3).map((row) => {
+    const cond = conditionsFor(row.id, type, pool, fallbackSolvent, fallbackTemp);
+    return toPick(row, cond.solvent, cond.temp, refsFor(row.id, type, pool).slice(0, 2));
+  });
+  const primary = picks[0];
   return {
     type,
     sim: 0,
     primary,
-    alts: ranked.slice(1, 5).map((r) => toPick(r, "toluene", 25)),
-    refs: refsFor(primary.catalyst_id, type, []),
+    alts: picks.slice(1),
+    ranked: picks,
+    refs: primary?.refs ?? [],
   };
+}
+
+function fallbackRec(): Recommendation {
+  const type = reactions[0]?.reaction_type ?? "";
+  const ranked = rankFor(type || "transfer hydrogenation (quinoline)", "toluene", 25);
+  const rec = packPicks(ranked, type, [], "toluene", 25);
+  rec.sim = 0;
+  return rec;
 }
 
 export function recommendFromSmiles(raw: string): Recommendation | null {
@@ -585,13 +625,9 @@ export function recommendFromSmiles(raw: string): Recommendation | null {
     }
     if (!pickRanked[0]) return fallbackRec();
 
-    const primary = toPick(pickRanked[0], pickSolvent, pickTemp);
-    const litAtPick = condScore.get(`${pickSolvent}|${pickTemp}`);
-    if (litAtPick) primary.maxEe = litAtPick.maxEe;
-    const alts = pickRanked.slice(1, 5).map((r) => toPick(r, pickSolvent, pickTemp));
-    const refs = refsFor(primary.catalyst_id, type, pool);
-
-    return { type, sim: scored[0].sim, primary, alts, refs };
+    const rec = packPicks(pickRanked, type, pool, pickSolvent, pickTemp);
+    rec.sim = scored[0].sim;
+    return rec;
   } catch {
     return fallbackRec();
   }
