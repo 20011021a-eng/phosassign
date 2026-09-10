@@ -1,0 +1,1005 @@
+[
+  {
+    "doi": "10.1016/j.trechm.2020.10.001",
+    "title": "Reductive Csp2–N Coupling by PIII/PV=O–Catalysis",
+    "year": 2021,
+    "journal": "Trends Chem.",
+    "authors": "Li, Grotenhuis, Radosevich",
+    "access": "oa",
+    "source": "literature",
+    "n_reactions": 0,
+    "reaction_types": [
+      "highlight (PIII/PV C–N)"
+    ]
+  },
+  {
+    "doi": "10.1039/d0sc05620k",
+    "title": "Organophosphorus-catalyzed relay oxidation of H-Bpin: electrophilic C–H borylation of heteroarenes",
+    "year": 2021,
+    "journal": "Chem. Sci.",
+    "authors": "Lipshultz, Fu, Liu, Radosevich",
+    "access": "oa",
+    "source": "literature",
+    "n_reactions": 11,
+    "reaction_types": [
+      "C–H borylation (heteroarene)"
+    ]
+  },
+  {
+    "doi": "10.1021/jacs.0c12816",
+    "title": "Main Group Redox Catalysis of Organopnictogens: Vertical Periodic Trends and Emerging Opportunities in Group 15",
+    "year": 2021,
+    "journal": "J. Am. Chem. Soc.",
+    "authors": "Lipshultz, Li, Radosevich",
+    "access": "paywalled",
+    "source": "literature",
+    "n_reactions": 0,
+    "reaction_types": [
+      "review (organopnictogen redox)"
+    ]
+  },
+  {
+    "doi": "10.1021/jacs.1c07272",
+    "title": "PIII/PV=O-Catalyzed Intermolecular N–N Bond Formation: Cross-Selective Reductive Coupling of Nitroarenes and Anilines",
+    "year": 2021,
+    "journal": "J. Am. Chem. Soc.",
+    "authors": "Li, Miller, Radosevich",
+    "access": "oa",
+    "source": "literature",
+    "n_reactions": 26,
+    "reaction_types": [
+      "N–N coupling (nitroarene–aniline)"
+    ]
+  },
+  {
+    "doi": "10.1021/jacs.1c07608",
+    "title": "Uniting Amide Synthesis and Activation by PIII/PV-Catalyzed Serial Condensation: Three-Component Assembly of 2-Amidopyridines",
+    "year": 2021,
+    "journal": "J. Am. Chem. Soc.",
+    "authors": "Lipshultz, Radosevich",
+    "access": "extracted",
+    "source": "literature",
+    "n_reactions": 44,
+    "reaction_types": [
+      "amide serial condensation (2-amidopyridine)"
+    ]
+  },
+  {
+    "doi": "10.1021/jacs.2c01487",
+    "title": "Enabling Reductive C–N Cross-Coupling of Nitroalkanes and Boronic Acids by Steric Design of P(III)/P(V)=O Catalysts",
+    "year": 2022,
+    "journal": "J. Am. Chem. Soc.",
+    "authors": "Li, Kanda, Hong, Radosevich",
+    "access": "extracted",
+    "source": "literature",
+    "n_reactions": 45,
+    "reaction_types": [
+      "nitroalkane–boronic C–N coupling"
+    ]
+  },
+  {
+    "doi": "10.1021/jacs.2c02922",
+    "title": "Chemoselective Primary Amination of Aryl Boronic Acids by PIII/PV=O-Catalysis: Synthetic Capture of the Transient Nef Intermediate HNO",
+    "year": 2022,
+    "journal": "J. Am. Chem. Soc.",
+    "authors": "Hong, Radosevich",
+    "access": "extracted",
+    "source": "literature",
+    "n_reactions": 38,
+    "reaction_types": [
+      "primary amination (HNO/Nef)"
+    ]
+  },
+  {
+    "doi": "10.1021/jacs.2c12450",
+    "title": "Tandem C/N-Difunctionalization of Nitroarenes: Reductive Amination and Annulation by a Ring Expansion/Contraction Sequence",
+    "year": 2023,
+    "journal": "J. Am. Chem. Soc.",
+    "authors": "Li, Lavagnino, Ali, Hu, Radosevich",
+    "access": "extracted",
+    "source": "literature",
+    "n_reactions": 35,
+    "reaction_types": [
+      "tandem C/N-difunctionalization (nitroarene)"
+    ]
+  },
+  {
+    "doi": "10.1021/jacs.3c08373",
+    "title": "Deoxyfluorination of 1°, 2°, and 3° Alcohols by Nonbasic O–H Activation and Lewis Acid-Catalyzed Fluoride Shuttling",
+    "year": 2023,
+    "journal": "J. Am. Chem. Soc.",
+    "authors": "Moon, Lavagnino, Lim, Palkowitz, Mandler, Beutner, Drance, Lipshultz, Scola, Radosevich",
+    "access": "oa",
+    "source": "literature",
+    "n_reactions": 0,
+    "reaction_types": [
+      "deoxyfluorination (stoichiometric P-triamide)"
+    ]
+  },
+  {
+    "doi": "10.1002/anie.202409854",
+    "title": "Electrophilic C(sp2)–H Cyanation with Inorganic Cyanate (OCN–) by PIII/PV=O-Catalyzed Phase Transfer Activation",
+    "year": 2024,
+    "journal": "Angew. Chem. Int. Ed.",
+    "authors": "Hu, Radosevich",
+    "access": "extracted",
+    "source": "literature",
+    "n_reactions": 46,
+    "reaction_types": [
+      "electrophilic C–H cyanation"
+    ]
+  },
+  {
+    "doi": "10.1021/acscatal.5c04341",
+    "title": "Visible Light Promotes PIII/PV-Catalyzed Reductive N-Arylation of Nitroarenes at Room Temperature",
+    "year": 2025,
+    "journal": "ACS Catal.",
+    "authors": "Kang, Lavagnino, Gordon, Reynolds, Nocera, Radosevich",
+    "access": "oa",
+    "source": "literature",
+    "n_reactions": 60,
+    "reaction_types": [
+      "photo reductive N-arylation"
+    ]
+  },
+  {
+    "doi": "10.1039/d5sc05216e",
+    "title": "Nitrilation of carboxylic acids by PIII/PV-catalysis",
+    "year": 2025,
+    "journal": "Chem. Sci.",
+    "authors": "Ali, Manno, Shen, Schenker, Lipshultz, White, Radosevich",
+    "access": "oa",
+    "source": "literature",
+    "n_reactions": 79,
+    "reaction_types": [
+      "carboxylic acid nitrilation"
+    ]
+  },
+  {
+    "doi": "10.1016/j.tet.2025.134892",
+    "title": "18O Kinetic Isotope Effect Evidence for a Concerted [3+1] Cycloaddition in Phosphetane-Catalyzed Reductive N-Arylation of Nitroarenes",
+    "year": 2025,
+    "journal": "Tetrahedron",
+    "authors": "Kang, Radosevich",
+    "access": "oa",
+    "source": "literature",
+    "n_reactions": 0,
+    "reaction_types": [
+      "18O KIE (nitroarene N-arylation)"
+    ]
+  },
+  {
+    "doi": "10.1016/S2451-9294(26)00012-4",
+    "title": "Proton-coupled electrochemical reduction of a phosphine oxide",
+    "year": 2026,
+    "journal": "Chem",
+    "authors": "Laverny, Wang, Valtierra, Palkowitz, Beutner, Mandler, Zhu, Müller, Scola, Surendranath, Radosevich",
+    "access": "user",
+    "source": "literature",
+    "n_reactions": 0,
+    "reaction_types": [
+      "electrochemical phosphine oxide reduction"
+    ]
+  },
+  {
+    "doi": "10.1038/s44160-025-00877-6",
+    "title": "Enantioselective organocatalytic construction of axially chiral sulfoxides",
+    "year": 2025,
+    "journal": "Nat. Synth.",
+    "authors": "Chang, Zhou, Xu, Wang, Qin, Yan",
+    "access": "user",
+    "source": "literature",
+    "n_reactions": 0,
+    "reaction_types": [
+      "axially chiral sulfoxide (squaramide, not CPA)"
+    ]
+  },
+  {
+    "doi": "10.1002/anie.202524073",
+    "title": "Enantioselective Synthesis of Chiral Sulfinamidines via Asymmetric Amination of Sulfenamides Using a Chiral Phosphoric Acid Catalyst",
+    "year": 2025,
+    "journal": "Angew. Chem. Int. Ed.",
+    "authors": "Chen, Ning, Ren, Xiong",
+    "access": "user",
+    "source": "literature",
+    "n_reactions": 19,
+    "reaction_types": [
+      "sulfinamidine amination"
+    ]
+  },
+  {
+    "doi": "10.1039/d1qo01864g",
+    "title": "Chiral phosphoric acid-catalyzed regio- and enantioselective reactions of functionalized propargylic alcohols",
+    "year": 2022,
+    "journal": "Org. Chem. Front.",
+    "authors": "Qian, Liu, Sun, Li",
+    "access": "user",
+    "source": "literature",
+    "n_reactions": 17,
+    "reaction_types": [
+      "propargylic substitution (isoindolinone–indole)"
+    ]
+  },
+  {
+    "doi": "10.1002/anie.202213914",
+    "title": "Phosphoric Acid-Catalyzed Enantioselective Synthesis of Axially Chiral Anthrone-based Compounds",
+    "year": 2022,
+    "journal": "Angew. Chem. Int. Ed.",
+    "authors": "He, Zhu, Qiu, Ding, Cheng, Xiang, Tan",
+    "access": "user",
+    "source": "literature",
+    "n_reactions": 26,
+    "reaction_types": [
+      "atroposelective anthrone oxime"
+    ]
+  },
+  {
+    "doi": "10.1021/acs.orglett.4c01000",
+    "title": "Enantioselective Construction of Chiral THIQUINOL and Its Derivatives via Chiral Phosphoric Acid Catalysis",
+    "year": 2024,
+    "journal": "Org. Lett.",
+    "authors": "Guo, Zhang, Chen, Dai, Zhang, Meng, Gao",
+    "access": "oa",
+    "source": "literature",
+    "n_reactions": 7,
+    "reaction_types": [
+      "aza-Friedel–Crafts (THIQUINOL)"
+    ]
+  },
+  {
+    "doi": "10.1021/jacs.9b07293",
+    "title": "Enantioselective Imine Reduction Catalyzed by Phosphenium Ions",
+    "year": 2019,
+    "journal": "J. Am. Chem. Soc.",
+    "authors": "Lundrigan, Welsh, Hynes, Tien, Adams, Roy, Robertson, Speed",
+    "access": "oa",
+    "source": "literature",
+    "n_reactions": 1,
+    "reaction_types": [
+      "phosphenium imine hydroboration"
+    ]
+  },
+  {
+    "doi": "10.1002/chem.202303283",
+    "title": "Phosphinidenes: Fundamental Properties and Reactivity",
+    "year": 2024,
+    "journal": "Chem. Eur. J.",
+    "authors": "Lu, Zhang",
+    "access": "oa",
+    "source": "literature",
+    "n_reactions": 0,
+    "reaction_types": [
+      "review (phosphinidene Concept)"
+    ]
+  },
+  {
+    "doi": "10.1021/acs.organomet.5c00466",
+    "title": "Insertion of CO2, Isocyanates, and Acetonitrile into the P–Si Bond of a Silyl-Substituted N-Heterocyclic Carbene Phosphinidene",
+    "year": 2026,
+    "journal": "Organometallics",
+    "authors": "Hochholzer, Doleschal, Chakraborty, Inoue",
+    "access": "oa",
+    "source": "literature",
+    "n_reactions": 0,
+    "reaction_types": [
+      "stoichiometric P–Si insertion (excluded)"
+    ]
+  },
+  {
+    "doi": "10.70401/cc.2026.0034",
+    "title": "Chiral Brønsted acid-catalyzed enantioselective synthesis of 3-azabicyclo[3.1.1]heptanes",
+    "year": 2026,
+    "journal": "Chiral Chemistry",
+    "authors": "Deng, Liu, Ding, Xiang, Tan",
+    "access": "oa",
+    "source": "literature",
+    "n_reactions": 1,
+    "reaction_types": [
+      "3-azabicyclo[3.1.1]heptane ATH"
+    ]
+  },
+  {
+    "doi": "10.1002/anie.201801300",
+    "title": "Chiral 1,3,2-Diazaphospholenes as Catalytic Molecular Hydrides for Enantioselective Conjugate Reductions",
+    "year": 2018,
+    "journal": "Angew. Chem. Int. Ed.",
+    "authors": "Miaskiewicz, Reed, Donets, Oliveira, Cramer",
+    "access": "oa",
+    "source": "literature",
+    "n_reactions": 1,
+    "reaction_types": [
+      "DAP 1,4-reduction (acyl pyrrole)"
+    ]
+  },
+  {
+    "doi": "10.1016/j.chempr.2023.02.017",
+    "title": "Data science enables the development of a new class of chiral phosphoric acid catalysts",
+    "year": 2023,
+    "journal": "Chem",
+    "authors": "Liles, Rouget-Virbel, Wahlman, Rahimoff, Crawford, Medlin, O'Connor, Li, Roytman, Toste, Sigman",
+    "access": "oa",
+    "source": "literature",
+    "n_reactions": 1,
+    "reaction_types": [
+      "8-aminoquinoline transfer hydrogenation"
+    ]
+  },
+  {
+    "doi": "10.1021/ja409121s",
+    "title": "Bifunctional Iminophosphorane Organocatalysts for Enantioselective Synthesis: Application to the Ketimine Nitro-Mannich Reaction",
+    "year": 2013,
+    "journal": "J. Am. Chem. Soc.",
+    "authors": "Núñez, Farley, Dixon",
+    "access": "oa",
+    "source": "literature",
+    "n_reactions": 1,
+    "reaction_types": [
+      "ketimine nitro-Mannich (BIMP)"
+    ]
+  },
+  {
+    "doi": "10.1039/d2cc02811e",
+    "title": "Enantioselective phosphonation of isoquinolines via chiral phosphoric acid-catalyzed dearomatization",
+    "year": 2022,
+    "journal": "Chem. Commun.",
+    "authors": "Gao, Guo",
+    "access": "extracted",
+    "source": "literature",
+    "n_reactions": 1,
+    "reaction_types": [
+      "isoquinoline phosphonation"
+    ]
+  },
+  {
+    "doi": "10.1002/ejic.202200148",
+    "title": "Cationic Iridium(I) NHC-Phosphinidene Complexes and Their Application in Hydrogen Isotope Exchange Reactions",
+    "year": 2022,
+    "journal": "Eur. J. Inorg. Chem.",
+    "authors": "Peters, Bockfeld, Tamm",
+    "access": "user",
+    "source": "literature",
+    "n_reactions": 0,
+    "reaction_types": [
+      "Ir NHC–phosphinidene HIE (excluded)"
+    ]
+  },
+  {
+    "doi": "10.1021/acs.joc.1c02377",
+    "title": "N-Heterocyclic Carbene-Phosphinidenide Complexes as Hydroboration Catalysts",
+    "year": 2022,
+    "journal": "J. Org. Chem.",
+    "authors": "Bhattacharjee, Bockfeld, Tamm",
+    "access": "user",
+    "source": "literature",
+    "n_reactions": 0,
+    "reaction_types": [
+      "metal NHC–phosphinidenide hydroboration (excluded)"
+    ]
+  },
+  {
+    "doi": "10.1039/d1cc04421d",
+    "title": "Synthesis and reactivity of NHC-coordinated phosphinidene oxide",
+    "year": 2021,
+    "journal": "Chem. Commun.",
+    "authors": "Dhara, Pal, Dolai, Chrysochos, Rawat, Elvers, Krummenacher, Braunschweig, Schulzke, Chandrasekhar, Priyakumar, Jana",
+    "access": "user",
+    "source": "literature",
+    "n_reactions": 0,
+    "reaction_types": [
+      "stoichiometric NHC–phosphinidene oxide (excluded)"
+    ]
+  },
+  {
+    "doi": "10.1002/anie.201703672",
+    "title": "Facile Phenylphosphinidene Transfer Reactions from Carbene–Phosphinidene Zinc Complexes",
+    "year": 2017,
+    "journal": "Angew. Chem. Int. Ed.",
+    "authors": "Krachko, Bispinghoff, Tondreau, Stein, Baker, Ehlers, Slootweg, Grützmacher",
+    "access": "user",
+    "source": "literature",
+    "n_reactions": 0,
+    "reaction_types": [
+      "stoichiometric PhP transfer (Zn; excluded)"
+    ]
+  },
+  {
+    "doi": "10.1002/adsc.201801329",
+    "title": "Asymmetric Syntheses of Spirooxindole-dihydroquinazolinones by Cyclization Reactions between N-substituted Anthranilamides and Isatins",
+    "year": 2018,
+    "journal": "Adv. Synth. Catal.",
+    "authors": "Wang, Jiang, Li, Sun, Zuo",
+    "access": "user",
+    "source": "literature",
+    "n_reactions": 7,
+    "reaction_types": [
+      "spirooxindole-dihydroquinazolinone"
+    ]
+  },
+  {
+    "doi": "10.1039/d2cc05172a",
+    "title": "Chiral phosphoric acid-catalyzed dual ring formation for enantioselective construction of N–N axially chiral 3,3'-bisquinazolinones",
+    "year": 2022,
+    "journal": "Chem. Commun.",
+    "authors": "Pu, Zhang, Liu, Teng",
+    "access": "user",
+    "source": "literature",
+    "n_reactions": 9,
+    "reaction_types": [
+      "N–N axial 3,3′-bisquinazolinone"
+    ]
+  },
+  {
+    "doi": "10.1038/s41557-021-00750-x",
+    "title": "Organocatalyst-controlled site-selective arene C–H functionalization",
+    "year": 2021,
+    "journal": "Nat. Chem.",
+    "authors": "Mao, Wang, Yang, Xiang, Wu, Cui, Lu, Lv, Li, Tan",
+    "access": "user",
+    "source": "literature",
+    "n_reactions": 6,
+    "reaction_types": [
+      "para-C–H azobenzene (oxazolone)"
+    ]
+  },
+  {
+    "doi": "10.1021/acs.orglett.0c02214",
+    "title": "Organocatalytic Atroposelective Construction of Axially Chiral N-Aryl Benzimidazoles Involving Carbon–Carbon Bond Cleavage",
+    "year": 2020,
+    "journal": "Org. Lett.",
+    "authors": "Man, Lou, Li, Yang, Zhao, Fu",
+    "access": "user",
+    "source": "literature",
+    "n_reactions": 11,
+    "reaction_types": [
+      "atroposelective N-arylbenzimidazole (C–C cleavage)"
+    ]
+  },
+  {
+    "doi": "10.1021/acs.orglett.5c01428",
+    "title": "Enantioselective Construction of gem-Difluorinated Tetrahydroindolo[2,1-b]quinazolines via CPA-Catalyzed Asymmetric [4 + 2]-Annulation",
+    "year": 2025,
+    "journal": "Org. Lett.",
+    "authors": "Hu, Tian, Song, Liu, Li, He, Zhao",
+    "access": "user",
+    "source": "literature",
+    "n_reactions": 17,
+    "reaction_types": [
+      "gem-difluoro [4+2] indoloquinazoline"
+    ]
+  },
+  {
+    "doi": "10.1002/anie.202520101",
+    "title": "Mesoionic N-Heterocyclic Olefins, Imines, Thiones, Phosphinidenes and Their Application in Catalysis",
+    "year": 2026,
+    "journal": "Angew. Chem. Int. Ed.",
+    "authors": "Maji, Sreejyothi, Hansmann, Mandal",
+    "access": "oa",
+    "source": "literature",
+    "n_reactions": 0,
+    "reaction_types": [
+      "review (mNHP)"
+    ]
+  },
+  {
+    "doi": "10.1002/zaac.202000405",
+    "title": "A General Synthetic Route to NHC-Phosphinidenes: NHC-mediated Dehydrogenation of Primary Phosphines",
+    "year": 2021,
+    "journal": "Z. Anorg. Allg. Chem.",
+    "authors": "Radius, Werner, Horrer, Philipp, Lubitz, Kuntze-Fechner",
+    "access": "user",
+    "source": "literature",
+    "n_reactions": 0,
+    "reaction_types": [
+      "synthesis (NHC–phosphinidene)"
+    ]
+  },
+  {
+    "doi": "10.1002/ejic.201800459",
+    "title": "N-Heterocyclic Carbene–Phosphinidene Adducts: Synthesis, Properties, and Applications",
+    "year": 2018,
+    "journal": "Eur. J. Inorg. Chem.",
+    "authors": "Krachko, Slootweg",
+    "access": "user",
+    "source": "literature",
+    "n_reactions": 0,
+    "reaction_types": [
+      "review (NHC–phosphinidene)"
+    ]
+  },
+  {
+    "doi": "10.1016/j.chempr.2025.102649",
+    "title": "N-Heterocyclic carbene-phosphinidenes in main-group chemistry",
+    "year": 2025,
+    "journal": "Chem",
+    "authors": "Zhu, Inoue",
+    "access": "oa",
+    "source": "literature",
+    "n_reactions": 0,
+    "reaction_types": [
+      "review (NHCP)"
+    ]
+  },
+  {
+    "doi": "10.1002/chem.202101202",
+    "title": "An NHC-Stabilised Phosphinidene for Catalytic Formylation: A DFT-Guided Approach",
+    "year": 2021,
+    "journal": "Chem. Eur. J.",
+    "authors": "Sreejyothi, Bhattacharyya, Kumar, Hota, Datta, Mandal",
+    "access": "user",
+    "source": "literature",
+    "n_reactions": 20,
+    "reaction_types": [
+      "amide formylation (CO2/silane)"
+    ]
+  },
+  {
+    "doi": "10.1021/jacs.4c04376",
+    "title": "Transition Metal-Mimicking Relay Catalysis by a Low-Valent Phosphorus Compound",
+    "year": 2024,
+    "journal": "J. Am. Chem. Soc.",
+    "authors": "Sreejyothi, Gautam, Maji, Bhattacharyya, Mandal",
+    "access": "user",
+    "source": "literature",
+    "n_reactions": 18,
+    "reaction_types": [
+      "benzoin condensation",
+      "γ-butyrolactone (P(I) relay)"
+    ]
+  },
+  {
+    "doi": "10.1021/jacs.5c05832",
+    "title": "aNHC-Stabilized Low-Valent Phosphorus Compound: Exploring Dual Catalytic Activity via Nucleophilicity and P(I)/P(III) Redox Reactivity",
+    "year": 2025,
+    "journal": "J. Am. Chem. Soc.",
+    "authors": "Gautam, Sreejyothi, Soni, Chakraborty, Maji, Bhattacharyya, Mandal",
+    "access": "user",
+    "source": "literature",
+    "n_reactions": 29,
+    "reaction_types": [
+      "hydrodefluorination (Ar–F)",
+      "thiol formylation (CO2)"
+    ]
+  },
+  {
+    "doi": "10.1021/acs.orglett.5c01821",
+    "title": "CPA-catalyzed Pictet–Spengler for CF3-substituted tetrahydro-β-carbolines",
+    "year": 2025,
+    "journal": "Org. Lett.",
+    "authors": "Org. Lett. 2025",
+    "access": "oa",
+    "source": "literature",
+    "n_reactions": 6,
+    "reaction_types": [
+      "Pictet–Spengler (CF3-ketone)"
+    ]
+  },
+  {
+    "doi": "10.1021/acs.orglett.5c00590",
+    "title": "Phosphoric Acid-Catalyzed Enantioselective Synthesis of Axially Chiral Cyclobutanamides",
+    "year": 2025,
+    "journal": "Org. Lett.",
+    "authors": "Cheng, Zheng, Zhu, Yang, Qiu, Ding, Li",
+    "access": "oa",
+    "source": "literature",
+    "n_reactions": 5,
+    "reaction_types": [
+      "atroposelective cyclobutanamide"
+    ]
+  },
+  {
+    "doi": "10.1002/asia.70286",
+    "title": "Enantioselective Gram-Scale Synthesis of Rasagiline via Chiral Phosphoric Acid-Catalyzed Reduction of Cyclic Imine",
+    "year": 2025,
+    "journal": "Chem. Asian J.",
+    "authors": "Ishizuka, Osawa, Shimizu, Sogo, Imaizumi, Shiba, Nureki, Matoba, Odagi, Nagasawa",
+    "access": "oa",
+    "source": "literature",
+    "n_reactions": 6,
+    "reaction_types": [
+      "transfer hydrogenation (cyclic imine)"
+    ]
+  },
+  {
+    "doi": "10.1021/acscatal.4c01489",
+    "title": "Enantioselective Synthesis of Axially Chiral Diaryl Ethers through Chiral Phosphoric Acid-Catalyzed Desymmetric Acylation with Azlactones",
+    "year": 2024,
+    "journal": "ACS Catal.",
+    "authors": "Xu, Lin, Zheng, Li",
+    "access": "oa",
+    "source": "literature",
+    "n_reactions": 1,
+    "reaction_types": [
+      "atroposelective diaryl ether acylation"
+    ]
+  },
+  {
+    "doi": "10.1038/s41467-024-49435-2",
+    "title": "CPA-catalyzed asymmetric epoxidation of alkenyl aza-heteroarenes using hydrogen peroxide",
+    "year": 2024,
+    "journal": "Nat. Commun.",
+    "authors": "Nat. Commun. 2024",
+    "access": "oa",
+    "source": "literature",
+    "n_reactions": 8,
+    "reaction_types": [
+      "epoxidation (H2O2)"
+    ]
+  },
+  {
+    "doi": "10.1039/d3qo01615c",
+    "title": "Chiral phosphoric acid catalyzed enantioselective inverse-electron-demand oxa-Diels–Alder reactions to synthesize chiral tricyclic tetrahydropyran derivatives",
+    "year": 2024,
+    "journal": "Org. Chem. Front.",
+    "authors": "Tang, Wu, Ji, Tian, Peng, Wang",
+    "access": "user",
+    "source": "literature",
+    "n_reactions": 34,
+    "reaction_types": [
+      "oxa-Diels–Alder (IEDDA)"
+    ]
+  },
+  {
+    "doi": "10.1021/acs.orglett.4c03012",
+    "title": "Enantioselective cycloaddition of pyrrole-2-methides with aldehydes",
+    "year": 2024,
+    "journal": "Org. Lett.",
+    "authors": "Schneider et al.",
+    "access": "oa",
+    "source": "literature",
+    "n_reactions": 5,
+    "reaction_types": [
+      "[6+2] pyrrole-2-methide"
+    ]
+  },
+  {
+    "doi": "10.1002/anie.202308122",
+    "title": "Enantioselective Synthesis of Chiral Amides by a Phosphoric Acid Catalyzed Asymmetric Wolff Rearrangement",
+    "year": 2023,
+    "journal": "Angew. Chem. Int. Ed.",
+    "authors": "Pan, Yang, Zhang, Li, Zhou",
+    "access": "user",
+    "source": "literature",
+    "n_reactions": 38,
+    "reaction_types": [
+      "Wolff rearrangement"
+    ]
+  },
+  {
+    "doi": "10.1038/s42004-023-00826-4",
+    "title": "CPA-catalyzed enantioselective phosphinylation of 3,4-dihydroisoquinolines",
+    "year": 2023,
+    "journal": "Commun. Chem.",
+    "authors": "Guo et al.",
+    "access": "oa",
+    "source": "literature",
+    "n_reactions": 8,
+    "reaction_types": [
+      "C–P phosphinylation (DHIQ)"
+    ]
+  },
+  {
+    "doi": "10.1039/d3sc01656k",
+    "title": "Enantioselective synthesis of hydantoins by chiral acid-catalysed condensation of glyoxals and ureas",
+    "year": 2023,
+    "journal": "Chem. Sci.",
+    "authors": "O'Reilly et al.",
+    "access": "oa",
+    "source": "literature",
+    "n_reactions": 15,
+    "reaction_types": [
+      "hydantoin condensation"
+    ]
+  },
+  {
+    "doi": "10.1021/acs.joc.3c00191",
+    "title": "Hybrid catalysts for enantioselective photo-phosphoric acid catalysis",
+    "year": 2023,
+    "journal": "J. Org. Chem.",
+    "authors": "J. Org. Chem. 2023",
+    "access": "oa",
+    "source": "literature",
+    "n_reactions": 5,
+    "reaction_types": [
+      "photo-CPA Giese-type"
+    ]
+  },
+  {
+    "doi": "10.1002/anie.202300419",
+    "title": "Organocatalytic Enantioselective Synthesis of Axially Chiral N,N'-Bisindoles",
+    "year": 2023,
+    "journal": "Angew. Chem. Int. Ed.",
+    "authors": "Chen, Li, Wang, Ma, Ni, Zhang, Shi",
+    "access": "user",
+    "source": "literature",
+    "n_reactions": 20,
+    "reaction_types": [
+      "atroposelective bisindole"
+    ]
+  },
+  {
+    "doi": "10.1002/adsc.202201077",
+    "title": "CPA-catalyzed chemo- and enantioselective N-alkylation of indoles",
+    "year": 2022,
+    "journal": "Adv. Synth. Catal.",
+    "authors": "Yang et al.",
+    "access": "paywalled",
+    "source": "literature",
+    "n_reactions": 5,
+    "reaction_types": [
+      "N-alkylation of indoles"
+    ]
+  },
+  {
+    "doi": "10.1002/adsc.202200161",
+    "title": "CPA-catalyzed formal [4+2] of dienecarbamates and 2-benzothiazolimines",
+    "year": 2022,
+    "journal": "Adv. Synth. Catal.",
+    "authors": "Ma et al.",
+    "access": "paywalled",
+    "source": "literature",
+    "n_reactions": 5,
+    "reaction_types": [
+      "[4+2] dienecarbamate"
+    ]
+  },
+  {
+    "doi": "10.1039/d2ra03750e",
+    "title": "Enantioselective synthesis of α-tetrasubstituted (3-indolizinyl)(diaryl)methanamines",
+    "year": 2022,
+    "journal": "RSC Adv.",
+    "authors": "Zhong et al.",
+    "access": "oa",
+    "source": "literature",
+    "n_reactions": 9,
+    "reaction_types": [
+      "Friedel–Crafts (indolizine)"
+    ]
+  },
+  {
+    "doi": "10.1002/anie.202111251",
+    "title": "Nitrosobenzene-Enabled Chiral Phosphoric Acid Catalyzed Enantioselective Construction of Atropisomeric N-Arylbenzimidazoles",
+    "year": 2021,
+    "journal": "Angew. Chem. Int. Ed.",
+    "authors": "An, Xia, Ding, Liu, Xiang, Wang, Zhong, Tan",
+    "access": "user",
+    "source": "literature",
+    "n_reactions": 14,
+    "reaction_types": [
+      "atroposelective N-arylbenzimidazole"
+    ]
+  },
+  {
+    "doi": "ord-a41de9c1b0394c6fbbe089d6025b3caf",
+    "title": "Pfizer HTE anhydride opening (ORD)",
+    "year": 2021,
+    "journal": "ORD",
+    "authors": "Pfizer / ORD",
+    "access": "ord",
+    "source": "ORD",
+    "n_reactions": 1,
+    "reaction_types": [
+      "meso-anhydride methanolysis"
+    ]
+  },
+  {
+    "doi": "ord-75b7c699ab6247668eb07518257f9e4b",
+    "title": "Pfizer HTE anhydride opening (ORD)",
+    "year": 2021,
+    "journal": "ORD",
+    "authors": "Pfizer / ORD",
+    "access": "ord",
+    "source": "ORD",
+    "n_reactions": 1,
+    "reaction_types": [
+      "meso-anhydride methanolysis"
+    ]
+  },
+  {
+    "doi": "ord-d92976309",
+    "title": "Pfizer HTE meso-anhydride opening (ORD) / literature desymmetrization",
+    "year": 2021,
+    "journal": "ORD + literature",
+    "authors": "Pfizer ORD / Seidel",
+    "access": "ord",
+    "source": "ORD",
+    "n_reactions": 6,
+    "reaction_types": [
+      "meso-anhydride methanolysis"
+    ]
+  },
+  {
+    "doi": "10.3762/bjoc.16.138",
+    "title": "Stereoselective Biginelli-like reaction catalyzed by a chiral phosphoric acid",
+    "year": 2020,
+    "journal": "Beilstein J. Org. Chem.",
+    "authors": "Beilstein 2020",
+    "access": "oa",
+    "source": "literature",
+    "n_reactions": 10,
+    "reaction_types": [
+      "Biginelli-like"
+    ]
+  },
+  {
+    "doi": "10.1126/science.aas8707",
+    "title": "Asymmetric phosphoric acid-catalyzed four-component Ugi reaction",
+    "year": 2018,
+    "journal": "Science",
+    "authors": "Zhang, Yu et al.",
+    "access": "extracted",
+    "source": "literature",
+    "n_reactions": 8,
+    "reaction_types": [
+      "Ugi-4CR"
+    ]
+  },
+  {
+    "doi": "10.1021/ja211339j",
+    "title": "Enantioselective Rauhut–Currier reaction catalyzed by chiral phosphines",
+    "year": 2012,
+    "journal": "J. Am. Chem. Soc.",
+    "authors": "Takizawa / Shi",
+    "access": "extracted",
+    "source": "literature",
+    "n_reactions": 7,
+    "reaction_types": [
+      "Rauhut–Currier"
+    ]
+  },
+  {
+    "doi": "10.1021/ja809946z",
+    "title": "Chiral phosphoric acid catalyzed spiroketalization",
+    "year": 2009,
+    "journal": "J. Am. Chem. Soc.",
+    "authors": "List / Coric",
+    "access": "extracted",
+    "source": "literature",
+    "n_reactions": 6,
+    "reaction_types": [
+      "spiroketalization"
+    ]
+  },
+  {
+    "doi": "10.1021/ja710528x",
+    "title": "Enantioselective Nazarov cyclization catalyzed by a chiral phosphoric acid",
+    "year": 2008,
+    "journal": "J. Am. Chem. Soc.",
+    "authors": "Rueping et al.",
+    "access": "extracted",
+    "source": "literature",
+    "n_reactions": 6,
+    "reaction_types": [
+      "Nazarov cyclization"
+    ]
+  },
+  {
+    "doi": "10.1002/anie.200702557",
+    "title": "Asymmetric Brønsted acid catalyzed transfer hydrogenation of benzoxazines",
+    "year": 2007,
+    "journal": "Angew. Chem. Int. Ed.",
+    "authors": "Rueping, Antonchick, Theissmann",
+    "access": "extracted",
+    "source": "literature",
+    "n_reactions": 6,
+    "reaction_types": [
+      "transfer hydrogenation (benzoxazine)"
+    ]
+  },
+  {
+    "doi": "10.1021/ja0628332",
+    "title": "Catalytic asymmetric Pictet–Spengler reaction",
+    "year": 2006,
+    "journal": "J. Am. Chem. Soc.",
+    "authors": "Seayad, Rowlands, List",
+    "access": "extracted",
+    "source": "literature",
+    "n_reactions": 11,
+    "reaction_types": [
+      "Pictet–Spengler"
+    ]
+  },
+  {
+    "doi": "10.1039/B602596K",
+    "title": "Enantioselective Brønsted acid catalyzed transfer hydrogenation of quinolines",
+    "year": 2006,
+    "journal": "Chem. Commun.",
+    "authors": "Rueping, Antonchick, Theissmann",
+    "access": "extracted",
+    "source": "literature",
+    "n_reactions": 24,
+    "reaction_types": [
+      "transfer hydrogenation (quinoline)"
+    ]
+  },
+  {
+    "doi": "10.1021/ja065708d",
+    "title": "Enantioselective organocatalytic reductive amination",
+    "year": 2006,
+    "journal": "J. Am. Chem. Soc.",
+    "authors": "Hoffmann, Seayad, List",
+    "access": "extracted",
+    "source": "literature",
+    "n_reactions": 13,
+    "reaction_types": [
+      "reductive amination"
+    ]
+  },
+  {
+    "doi": "10.1021/ja063355c",
+    "title": "Phosphine-catalyzed enantioselective [3+2] cycloadditions",
+    "year": 2006,
+    "journal": "J. Am. Chem. Soc.",
+    "authors": "Zhu, Lu, Kwon",
+    "access": "extracted",
+    "source": "literature",
+    "n_reactions": 6,
+    "reaction_types": [
+      "phosphine [3+2] (allenoate–imine)"
+    ]
+  },
+  {
+    "doi": "10.1002/anie.200502776",
+    "title": "Brønsted acid catalyzed enantioselective reduction of imines",
+    "year": 2005,
+    "journal": "Angew. Chem. Int. Ed.",
+    "authors": "Rueping et al.",
+    "access": "extracted",
+    "source": "literature",
+    "n_reactions": 8,
+    "reaction_types": [
+      "transfer hydrogenation (imine)"
+    ]
+  },
+  {
+    "doi": "10.1021/ja0553351",
+    "title": "Chiral Brønsted acid catalyzed hydrophosphonylation of imines",
+    "year": 2005,
+    "journal": "J. Am. Chem. Soc.",
+    "authors": "Akiyama et al.",
+    "access": "extracted",
+    "source": "literature",
+    "n_reactions": 5,
+    "reaction_types": [
+      "hydrophosphonylation"
+    ]
+  },
+  {
+    "doi": "10.1021/ja0471168",
+    "title": "Chiral Brønsted acid-catalyzed Friedel–Crafts reaction of indoles",
+    "year": 2004,
+    "journal": "J. Am. Chem. Soc.",
+    "authors": "Uraguchi, Sorimachi, Terada",
+    "access": "extracted",
+    "source": "literature",
+    "n_reactions": 8,
+    "reaction_types": [
+      "aza-Friedel–Crafts (indole)"
+    ]
+  },
+  {
+    "doi": "10.1002/anie.200353240",
+    "title": "Chiral Brønsted acid-catalyzed Mannich-type reaction",
+    "year": 2004,
+    "journal": "Angew. Chem. Int. Ed.",
+    "authors": "Akiyama, Itoh, Yokota, Fuchibe",
+    "access": "extracted",
+    "source": "literature",
+    "n_reactions": 11,
+    "reaction_types": [
+      "Mannich (silyl ketene acetal)"
+    ]
+  },
+  {
+    "doi": "10.1021/ja0460763",
+    "title": "Chiral phosphoric acid catalyzed Strecker reaction of aldimines",
+    "year": 2004,
+    "journal": "J. Am. Chem. Soc.",
+    "authors": "Uraguchi, Terada",
+    "access": "extracted",
+    "source": "literature",
+    "n_reactions": 5,
+    "reaction_types": [
+      "Strecker"
+    ]
+  }
+]

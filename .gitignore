@@ -1,0 +1,4 @@
+node_modules/
+dist-spa/
+.env
+.env.*
